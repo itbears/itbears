@@ -1,0 +1,39 @@
+.header {
+    max-width: 1501px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0px 20px;
+
+    &__logo-wrapper {
+        display: flex;
+        height: 50px;
+    }
+
+    &__nav-list {
+        display: flex;
+        font-size: 18px;
+    }
+
+    &__nav-item:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    &__logo-description {
+        font-size: 22px;
+        line-height: 25, 3px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    &__toggle {
+        margin-top: 16px;
+        border: none;
+        width: 35px;
+        height: 1px;
+        box-shadow: 0 15px 0 0 #ffffff;
+        display: none;
+        cursor: pointer;
+    }
+}
