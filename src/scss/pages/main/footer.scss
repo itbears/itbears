@@ -1,0 +1,116 @@
+.footer {
+    &__wrapper {
+        display: flex;
+        margin-top: 45px;
+    }
+
+    &__logo {
+        &-wrapper {
+            display: flex;
+        }
+
+        &-link {
+            margin-top: 8px;
+        }
+    }
+
+    &__title {
+        max-width: 568px;
+        font-weight: 400;
+        font-size: 36px;
+        color: #F1F1F2;
+        margin-left: 18px;
+        line-height: 130%;
+
+    }
+
+    &__text {
+        max-width: 564px;
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 28px;
+        margin-left: 138px;
+        line-height: 150%;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 138px;
+        margin-top: 200px;
+
+        &:first-child {
+            margin-top: 120px;
+        }
+
+        &:last-child {
+            margin-top: 0px;
+        }
+    }
+
+    &__list {
+        margin-top: 60px;
+        margin-left: 138px;
+
+        &-item {
+            font-weight: 400;
+            font-size: 24px;
+        }
+    }
+
+    &__link-wrapper {
+        margin-left: 100px;
+        margin-top: 236px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 28px;
+    }
+    &__crumb{
+        // margin-top: 200px;
+        margin-bottom: 45px;
+    }
+}
+
+.list-skills {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.skills-item {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+.list-prize {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.prize-item {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.skills {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.prize {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.subtext {
+    font-weight: 400;
+    font-size: 20px;
+}
