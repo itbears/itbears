@@ -1,9 +1,7 @@
-.hunter {
+.hunter-intro {
     max-width: 1500px;
     margin: 0 auto;
-
     &__title {
-        margin-top: 60px;
         font-weight: 400;
         font-size: 60px;
     }
@@ -11,63 +9,8 @@
     &__pic {
         margin-top: 82px;
     }
-}
 
-.description {
-    &__wrapper {
-        margin-top: 222px;
+    &__img {
+        max-width: 100%;
     }
-
-    &__inner {
-        display: flex;
-
-        &-development {
-            &:not(:first-child) {
-                margin-left: 540px;
-            }
-
-            &-link {}
-
-            &-list {
-                margin-top: 50px;
-            }
-
-            &-item {
-                font-weight: 400;
-                font-size: 25px;
-            }
-
-            &-date {
-                font-weight: 400;
-                font-size: 20px;
-                color: #7B7B7B;
-                margin-top: 50px;
-            }
-
-            &-text {
-                font-weight: 400;
-                font-size: 25px;
-                color: #F1F1F2;
-                max-width: 505px;
-                margin-top: 50px;
-            }
-            &-wrapper-button{
-                margin-top: 70px;
-            }
-            &-button {
-                font-weight: 400;
-                font-size: 16px;
-                border: 1px solid #F1F1F2;
-                padding-top: 20px;
-                padding-bottom: 20px;
-                padding-left: 25px;
-                padding-right: 25px;
-                
-            }
-        }
-    }
-    
-}
-.arrow2{
-    margin-right: 10px;
 }
