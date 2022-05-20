@@ -1,7 +1,15 @@
 .footer {
+    overflow: hidden;
+    position: relative;
     &__wrapper {
         display: flex;
         margin-top: 45px;
+        justify-content: space-between;
+    }
+
+    &__inner {
+        max-width: 700px;
+        width: 100%;
     }
 
     &__logo {
@@ -36,7 +44,7 @@
     &__subtitle {
         font-weight: 400;
         font-size: 20px;
-        margin-left: 138px;
+        // margin-left: 138px;
         margin-top: 200px;
 
         &:first-child {
@@ -50,7 +58,7 @@
 
     &__list {
         margin-top: 60px;
-        margin-left: 138px;
+        // margin-left: 138px;
 
         &-item {
             font-weight: 400;
@@ -59,7 +67,6 @@
     }
 
     &__link-wrapper {
-        margin-left: 100px;
         margin-top: 236px;
     }
 
@@ -67,16 +74,57 @@
         font-weight: 400;
         font-size: 28px;
     }
-    &__crumb{
-        // margin-top: 200px;
+
+    &__crumb {
         margin-bottom: 45px;
+    }
+
+    &__contacts {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+
+        &-social {
+            &-title {
+                margin-left: 136px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #F1F1F2;
+            }
+
+            &-list {
+                margin-left: 136px;
+                margin-top: 60px;
+            }
+
+            &-link {
+                font-weight: 400;
+                font-size: 24.5803px;
+            }
+        }
+
+        &-container {
+            max-width: 700px;
+            width: 100%;
+        }
+        &-mail {
+            font-weight: 400;
+            font-size: 28px;
+            color: #F1F1F2;
+        }
+    }
+    &__nav{
+        position: absolute;
+        right: -50px;
+        bottom: -65px;
+        border: 1px solid white;
+        padding: 143px 118px;
+        border-radius: 50%;
     }
 }
 
 .list-skills {
     margin-top: 0px;
-    margin-left: 0px;
-    margin-left: 100px;
     margin-top: 60px;
 }
 
@@ -88,7 +136,6 @@
 
 .list-prize {
     margin-top: 60px;
-    margin-left: 100px;
 }
 
 .prize-item {
@@ -99,18 +146,23 @@
 .skills {
     font-weight: 400;
     font-size: 20px;
-    margin-left: 100px;
     margin-top: 100px;
 }
 
 .prize {
     font-weight: 400;
-    font-size: 20px;
-    margin-left: 100px;
     margin-top: 80px;
 }
 
 .subtext {
     font-weight: 400;
     font-size: 20px;
+}
+
+.contact-list {
+    margin-left: 138px
+}
+
+.contact-title {
+    margin-left: 138px;
 }

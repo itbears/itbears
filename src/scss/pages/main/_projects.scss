@@ -2,6 +2,7 @@
     &__wrapper {
         display: flex;
         margin-top: 30px;
+        justify-content: space-between;
     }
 
     &__link {
@@ -12,13 +13,6 @@
     &__arrow {
         margin-right: 10px;
     }
-
-    &__inner {
-        &:not(:first-child) {
-            margin-left: 100px;
-        }
-    }
-
     &__title {
         margin-top: 30px;
         font-weight: 500;
@@ -31,7 +25,10 @@
         font-size: 20px;
         color: #7B7B7B;
     }
-    margin-bottom: 200px;
+    // margin-bottom: 200px;
+    &__img{
+        max-width: 100%;
+    }
 }
 
 .wrapper {
