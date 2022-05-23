@@ -1,13 +1,13 @@
 .hunter-intro {
+    padding: 0px 20px;
     max-width: 1500px;
     margin: 0 auto;
-    &__title {
-        font-weight: 400;
-        font-size: 60px;
-    }
+    position: relative;
+    z-index: 2;
+    // overflow: hidden;
 
     &__pic {
-        margin-top: 82px;
+        margin-top: 0px;
     }
 
     &__img {
