@@ -36,7 +36,6 @@
         position: relative;
         &::before{
             content: "";
-            // background: rgba(196, 196, 196, 0.01);
             backdrop-filter: blur(10px);
             display: block;
             width: 100%;
@@ -51,7 +50,7 @@
         }
         }
         &__img{
-            
+            max-width: 100%;
         }
     }
 .bottom-img {
