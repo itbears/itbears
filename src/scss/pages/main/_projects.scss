@@ -9,6 +9,7 @@
     &__link {
         font-weight: 400;
         font-size: 14px;
+        display: block;
     }
 
     &__arrow {
@@ -27,6 +28,13 @@
         color: #7B7B7B;
     }
     // margin-bottom: 200px;
+    &__pic{
+        cursor: pointer;
+        filter: blur(5px);
+        &:hover{
+            filter: blur(5);
+        }
+    }
     &__img{
         max-width: 100%;
     }

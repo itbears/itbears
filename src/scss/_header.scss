@@ -1,11 +1,11 @@
 .header {
     padding: 0px 20px;
-    height: 292px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     z-index: 1;
     &-hunter{
-       
+       height: 292px;
     }
     &__container {
         max-width: 1501px;
