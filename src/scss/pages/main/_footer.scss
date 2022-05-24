@@ -2,7 +2,10 @@
     padding: 0px 20px;
     overflow: hidden;
     position: relative;
-    margin-top: 200px;
+    margin-top: 50px;
+    &-hunter{
+        margin-top: 200px;
+    }
     &__wrapper {
         display: flex;
         margin-top: 45px;
@@ -46,7 +49,6 @@
     &__subtitle {
         font-weight: 400;
         font-size: 20px;
-        // margin-left: 138px;
         margin-top: 200px;
 
         &:first-child {
@@ -60,8 +62,6 @@
 
     &__list {
         margin-top: 60px;
-        // margin-left: 138px;
-
         &-item {
             font-weight: 400;
             font-size: 24px;
