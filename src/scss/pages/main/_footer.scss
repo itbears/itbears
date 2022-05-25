@@ -3,7 +3,7 @@
     overflow: hidden;
     position: relative;
     margin-top: 50px;
-    &-hunter{
+    &-case {
         margin-top: 200px;
     }
     &__wrapper {
@@ -31,10 +31,9 @@
         max-width: 568px;
         font-weight: 400;
         font-size: 36px;
-        color: #F1F1F2;
+        color: #f1f1f2;
         margin-left: 18px;
         line-height: 130%;
-
     }
 
     &__text {
@@ -91,7 +90,7 @@
                 margin-left: 136px;
                 font-weight: 400;
                 font-size: 20px;
-                color: #F1F1F2;
+                color: #f1f1f2;
             }
 
             &-list {
@@ -112,10 +111,10 @@
         &-mail {
             font-weight: 400;
             font-size: 28px;
-            color: #F1F1F2;
+            color: #f1f1f2;
         }
     }
-    &__nav{
+    &__nav {
         position: absolute;
         right: -50px;
         bottom: -65px;
@@ -134,7 +133,6 @@
     font-weight: 400;
     font-size: 25px;
 }
-
 
 .list-prize {
     margin-top: 60px;
@@ -162,7 +160,7 @@
 }
 
 .contact-list {
-    margin-left: 138px
+    margin-left: 138px;
 }
 
 .contact-title {

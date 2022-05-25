@@ -33,17 +33,17 @@
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
-                        <a href="" class="header__nav-link">
+                        <a href="#projects" class="header__nav-link">
                             Проекты
                         </a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="" class="header__nav-link">
+                        <a href="#about" class="header__nav-link">
                             О нас
                         </a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="" class="header__nav-link">
+                        <a href="#contacts" class="header__nav-link">
                             Контакты
                         </a>
                     </li>
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <h2 class="visually-hidden">
                 Проекты
             </h2>
@@ -97,11 +97,12 @@
                             fill="#F1F1F2" />
                     </svg>
                     выберите проект</a>
-                <div class="projects__wrapper"> 
-                     <div class="projects__container">
+                <div class="projects__wrapper">
+                    <div class="projects__container">
                         <a class="projects__box" href="">
                             <div class="projects__pic">
-                                <img src="images/img1.jpg" alt="Сайт" class="projects__img">
+                                <img src="https://cdn2.hexlet.io/assets/professions/landing/employment-24e5a9cbf6efa24c53fab4234e8d9b753509a31a94a5669fe49c4621fb6e00b3.jpg"
+                                    alt="Сайт" class="projects__img">
                                 <div class="projects__blur"></div>
                             </div>
                             <h3 class="projects__title">Охотник на Южном Урале</h3>
@@ -119,8 +120,8 @@
                     <div class="projects__container">
                         <a class="projects__box" href="">
                             <div class="projects__pic">
-                                <img src="images/img3.jpg" alt="Сайт"class="projects__img">
-                                    <div class="projects__blur"></div>
+                                <img src="images/img3.jpg" alt="Сайт" class="projects__img">
+                                <div class="projects__blur"></div>
                             </div>
                             <h3 class="projects__title">Professional Genius</h3>
                             <p class="projects__subtitle">Дизайн</p>
@@ -135,19 +136,18 @@
                         </a>
 
                     </div>
-                </div> 
+                </div>
             </div>
-         </section>
+        </section>
     </main>
     <footer class="footer">
         <div class="wrapper">
-            <a class="footer__crumb" href=""> <svg class="projects__arrow" width="13" height="8" viewBox="0 0 13 8"
+            <p class="footer__crumb" id="about"> <svg class="projects__arrow" width="13" height="8" viewBox="0 0 13 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M12.3536 4.35355C12.5488 4.15829 12.5488 3.84171 12.3536 3.64645L9.17157 0.464465C8.97631 0.269203 8.65973 0.269203 8.46447 0.464465C8.2692 0.659728 8.2692 0.97631 8.46447 1.17157L11.2929 4L8.46447 6.82843C8.2692 7.02369 8.2692 7.34027 8.46447 7.53553C8.65973 7.7308 8.97631 7.7308 9.17157 7.53553L12.3536 4.35355ZM4.37114e-08 4.5L12 4.5L12 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z"
                         fill="#F1F1F2" />
-                </svg>
-                О нас</a>
+                </svg> О нас</p>
             <div class="footer__wrapper">
                 <div class="footer__inner">
                     <div class="footer__logo-wrapper">
@@ -230,7 +230,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer__contacts">
+            <div class="footer__contacts" id="contacts">
                 <div class="footer__contacts-container footer__contacts-social">
                     <h3 class="footer__contacts-social-title">Контакты:</h3>
                     <ul class="footer__contacts-social-list">
@@ -247,8 +247,8 @@
                     </ul>
                 </div>
                 <div class="footer__contacts-container">
-                    <a href="" class="footer__contacts-mail">
-                        ПОЧТА
+                    <a href="mailto:info@itbears.ru" class="footer__contacts-mail">
+                        info@itbears.ru
                     </a>
                 </div>
             </div>
